@@ -1,0 +1,38 @@
+html * {
+    font-family:'Roboto', sans-serif;
+}
+
+hr.solid {
+    border-bottom: 3px solid #bbb;
+    margin: 10px;
+}
+
+div{
+    padding-left: 15px;
+    padding-bottom: 3px;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    width: 40%;
+}
+
+.column2 h4{
+    font-style: italic;
+}
+
+.row:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    font-weight: 100;
+}
